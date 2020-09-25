@@ -127,6 +127,7 @@
       { icon: "mdi-info", text: "projects", page: "/projects" },
       { icon: "mdi-playlist-play", text: "contacts", page: "/contacts" },
       { icon: "mdi-clock", text: "blog", page: "blog" },
+      { icon: "mdi-time", text: "certification", page: "certification" },
     ],
   }),
   watch: {

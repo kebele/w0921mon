@@ -8,6 +8,7 @@ import About from "./components/About.vue"
 import Projects from "./components/Projects.vue"
 import Contacts from "./components/Contacts.vue"
 import Blog from "./components/Blog.vue"
+import Certification from "./components/Certification.vue"
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter)
@@ -34,7 +35,11 @@ const router = new VueRouter({
       {
       path : '/blog',
       component : Blog
-      }
+      },
+      {
+      path : '/certification',
+      component : Certification
+      },
   ]
   });
 
